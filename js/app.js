@@ -23,7 +23,10 @@ function registrar() {
     alert("Preencha todos os campos");
     return;
   }
-
+if (cpf.length !== 11) {
+  alert("CPF deve conter 11 números");
+  return;
+}
   navigator.geolocation.getCurrentPosition(pos => {
 
     fetch(URL, {
