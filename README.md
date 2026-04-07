@@ -1,2 +1,13 @@
-# fasseb
-Este repositório se destina à confirmação de presença dos alunos da FASSEB de Porangatu, no curso de obreiros do ano de 2026
+# Sistema de Presença - FASSEB Porangatu
+
+✔ Registro com CPF  
+✔ Geolocalização  
+✔ Controle de horário  
+✔ Painel administrativo  
+✔ Exportação de relatórios  
+
+Desenvolvido com:
+- GitHub Pages (frontend)
+- Google Apps Script (backend)
+Por:
+- Marcus Vinicius de Sousa Freitas
