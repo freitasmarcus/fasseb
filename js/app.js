@@ -4,6 +4,9 @@ const URL = "https://script.google.com/macros/s/AKfycbzCCLdUTCtZ-nsPL5f5lBM8SW1j
 fetch(URL)
 .then(res => res.json())
 .then(lista => {
+
+  console.log("Lista recebida:", lista); // 👈 DEBUG
+
   const datalist = document.getElementById("nomes");
 
   lista.forEach(item => {
@@ -11,6 +14,10 @@ fetch(URL)
     option.value = item.nome;
     datalist.appendChild(option);
   });
+
+})
+.catch(err => {
+  console.error("Erro no autocomplete:", err);
 });
 
 // 🔹 registrar presença
