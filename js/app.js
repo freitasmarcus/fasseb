@@ -1,4 +1,4 @@
-const URL = "https://script.google.com/macros/s/AKfycbzCCLdUTCtZ-nsPL5f5lBM8SW1jxRAWBekY9nJvCQX1M47R7AHJo9tA6JwYfFWKRbHZ/exec";
+const URL = "https://script.google.com/macros/s/AKfycbwuQamd-LIFqTxuLHBkdd1RhP3JEaWycGFpVSCO7Z4Smun-LHYhHJP7wnhprVWO0KRE/exec";
 
 // 🔹 carregar nomes (autocomplete)
 fetch(URL)
